@@ -68,6 +68,8 @@ addressId = 1 contains information about the address of personId = 2.
 1. -- here remeber "Any join if valu not exits auto return (NULL)"
 2. -- here remeber "Any join Apply on the thing that is common on both table ( foreign key / any column which one is common)"
 3. -- if i have to apply group by apply on what i select same element  for example ---> if select dept, roll from tablename the group by dept, roll
+4. -- Most of the case apply Left Join
+
 
 ANS===
 
