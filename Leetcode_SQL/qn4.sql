@@ -48,6 +48,6 @@ Output:
 
 
 
--- 1.remeber here (referee_id is null) is right but (referee_id == null)) throw error ,. so inn sql case of equal is == or = use "is"
+-- 1.remeber here (referee_id is null) is right but (referee_id == null)) throw error ,. so inn sql case of equal is" = " use "is"
 
 select name from Customer where ((referee_id!=2) or (referee_id is null))
